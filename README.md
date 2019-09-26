@@ -4,7 +4,8 @@ A widget to display weather information based on parameters.
 
 ## Installation
 
-TODO: Describe the installation process
+npm install @webcomponents/webcomponentsjs
+npm install lit-element-bootstrap
 
 ## Usage
 

@@ -1,7 +1,6 @@
 {
   "shell": "src/ajacin-lit-weather-widget.js",
   "entrypoint": "index.html",
-  "fragments": ["src/lazy-element.js"],
   "npm": true,
   "moduleResolution": "node",
   "sources": ["src/ajacin-lit-weather-widget.js", "manifest/**", "manifest.json", "package.json"],
@@ -13,7 +12,7 @@
     "bundle": true,
     "js": { 
       "minify": false,
-      "compile": "es6",
+      "compile": "es5",
       "transformModulesToAmd": true
     },
     "addServiceWorker": true,

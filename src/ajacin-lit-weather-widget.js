@@ -4,7 +4,8 @@
  */
 
 
-import { LitElement, html } from 'lit-element';
+import { LitElement, html, css, unsafeCSS } from 'lit-element';
+import 'lit-element-bootstrap';
 
 export class AjacinLitWeatherWidget extends LitElement {
   /**
@@ -17,6 +18,30 @@ export class AjacinLitWeatherWidget extends LitElement {
     };
   }
 
+  static get styles() {
+    const mainColor = 'LightSkyBlue'
+    return css`
+    :host { display: block;
+      resize: both;
+      overflow: hidden;
+      background:#E76339;
+      width:250px;
+      height:300px;
+    }
+    :host([hidden]) {
+      display: none;
+    }
+    bs-container{
+      padding:1px;
+    }
+    bs-column{
+      border:1px black solid;
+    }
+    bs-row{
+      border:1px green solid;
+    }
+    `
+  }
   /**  
    * Element constructor
    */
@@ -34,22 +59,16 @@ export class AjacinLitWeatherWidget extends LitElement {
    */
   render() {
     return html`
-      <style>
-        :host { display: block; }
-        :host([hidden]) { display: none; }
-      </style>
-
-      <h1>Start LitElement!</h1>
-      <p>${this.message}</p>
-
-      <input name="myinput" id="myinput" 
-        type="checkbox"
-        ?checked="${this.pie}"
-        @change="${this.togglePie}">
-
-      <label for="myinput">I like pie.</label>
-      
-      ${this.pie ? html`<lazy-element></lazy-element>` : html``}
+    <bs-container>
+    <bs-row>
+        <bs-column sm-12 header>Toronto
+            <bs-row>
+                <bs-column sm-4 >117</bs-column>
+                <bs-column sm-4 >Cloudy</bs-column>
+            </bs-row>
+        </bs-column>
+    </bs-row>
+</bs-container>
     `;
   }
 
@@ -59,7 +78,7 @@ export class AjacinLitWeatherWidget extends LitElement {
    * - Focus the checkbox
    */
   firstUpdated() {
-   
+
   }
 
 }

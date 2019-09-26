@@ -10,7 +10,8 @@
   "author": "Arun Jacob",
   "license": "MIT",
   "dependencies": {
-    "@webcomponents/webcomponentsjs": "latest",
-    "lit-element": "latest"
+    "@webcomponents/webcomponentsjs": "^2.3.0",
+    "lit-element": "^2.2.1",
+    "lit-element-bootstrap": "^1.0.0-alpha.24"
   }
 }
