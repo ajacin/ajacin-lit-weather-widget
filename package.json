@@ -1,14 +1,14 @@
 {
-  "name": "start-lit-element",
+  "name": "ajacin-lit-weather-widget",
   "version": "1.0.0",
-  "description": "start-lit-element",
-  "repository": "https://github.com/PolymerLabs/start-lit-element.git",
-  "main": "start-lit-element.js",
+  "description": "ajacin-lit-weather-widget",
+  "repository": "https://github.com/ajacin/ajacin-lit-weather-widget.git",
+  "main": "ajacin-lit-weather-widget.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "The Polymer Authors",
-  "license": "BSD-3-Clause",
+  "author": "Arun Jacob",
+  "license": "MIT",
   "dependencies": {
     "@webcomponents/webcomponentsjs": "latest",
     "lit-element": "latest"

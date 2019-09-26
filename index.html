@@ -23,14 +23,14 @@
       waitFor(cb){ addEventListener('WebComponentsReady', cb) }
     } 
     WebComponents.waitFor(async () => { 
-      import('./src/start-lit-element.js');
+      import('./src/ajacin-lit-weather-widget.js');
     });
   </script>
   
   <!-- Change stuff here for your app -->
-  <meta name="description" content="start-lit-element">
+  <meta name="description" content="ajacin-lit-weather-widget">
   <meta name="theme-color" content="#ffffff">
-  <title>start-lit-element</title>
+  <title>ajacin-lit-weather-widget</title>
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="manifest" href="./manifest.json">
@@ -39,24 +39,5 @@
   <meta charset="UTF-8">
 </head>
 <body>
-
-  <!-- 
-    To configure starting state of the checkbox from markup: 
-    <start-lit-element pie="true"> 
-  -->
-  
-  <start-lit-element>
-    <!-- Placeholders to improve time to first paint -->
-    <h1>Start LitElement!</h1>
-    <p>Hello World from LitElement</p>
-
-    <!-- Check for JavaScript -->
-    <p id="jsyes"></p>
-    <script type="text/javascript">
-      document.getElementById('jsyes').innerHTML='Loading...';
-    </script>
-    <noscript>
-      Could not render the custom element. Check that JavaScript is enabled.
-    </noscript>
-  </start-lit-element>
+  <ajacin-lit-weather-widget></ajacin-lit-weather-widget>
 </body>
