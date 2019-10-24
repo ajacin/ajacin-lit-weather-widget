@@ -8,10 +8,10 @@ A widget to display weather information based on parameters.
   </tr>
   <tr>
     <td>
-        <img src="https://github.com/ajacin/ajacin-lit-weather-widget/screenshots/widget1.png" width="250"/>
+        <img src="https://raw.githubusercontent.com/ajacin/ajacin-lit-weather-widget/master/screenshots/widget1.png" width="250"/>
     </td>
     <td>
-        <img src="https://github.com/ajacin/ajacin-lit-weather-widget/screenshots/widget2.png" width="600"/>
+        <img src="https://raw.githubusercontent.com/ajacin/ajacin-lit-weather-widget/master/screenshots/widget2.png" width="600"/>
     </td>
   </tr>
 </table>
