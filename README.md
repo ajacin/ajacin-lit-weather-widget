@@ -1,6 +1,20 @@
 # ajacin-lit-weather-widget
 
 A widget to display weather information based on parameters. 
+<table>
+  <tr>
+    <th>Single Widget</th>
+    <th>Multiple Widgets</th>
+  </tr>
+  <tr>
+    <td>
+        <img src="https://github.com/ajacin/ajacin-lit-weather-widget/screenshots/widget1.jpg" width="600"/>
+    </td>
+    <td>
+        <img src="https://github.com/ajacin/ajacin-lit-weather-widget/screenshots/widget2.jpg" width="600"/>
+    </td>
+  </tr>
+</table>
 
 ## Installation
 
