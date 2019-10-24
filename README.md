@@ -23,23 +23,26 @@ npm install lit-element-bootstrap
 
 ## Usage
 
-TODO: Write usage instructions
+This widget componenent fetches real time weather infomration from openweathermap. The component takes ISO 3166 country code as a property and displays weather related data in a beautiful widget. This is a standard Lit Element component that can be used with JavaScript frameworks.
+```JavaScript
+<ajacin-lit-weather-widget city="Tokyo"></ajacin-lit-weather-widget>
+```
 
 ## Contributing
 
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+1. Fork this repository.
+2. Create your feature branch: `git checkout -b my-new-feature`.
+3. Commit your changes: `git commit -am 'Add some feature'`.
+4. Push to the branch: `git push origin my-new-feature`.
+5. Submit a pull request.
 
 ## History
 
-TODO: Write history
+v 1.0 - Initial development
 
 ## Credits
 
-Arun Jacob
+<img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" width="20"/> https://www.linkedin.com/in/ajacin/
 
 ## License
 
