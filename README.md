@@ -8,10 +8,10 @@ A widget to display weather information based on parameters.
   </tr>
   <tr>
     <td>
-        <img src="https://github.com/ajacin/ajacin-lit-weather-widget/screenshots/widget1.png" width="250"/>
+        <img src="https://raw.githubusercontent.com/ajacin/ajacin-lit-weather-widget/master/screenshots/widget1.png" width="250"/>
     </td>
     <td>
-        <img src="https://github.com/ajacin/ajacin-lit-weather-widget/screenshots/widget2.png" width="600"/>
+        <img src="https://raw.githubusercontent.com/ajacin/ajacin-lit-weather-widget/master/screenshots/widget2.png" width="600"/>
     </td>
   </tr>
 </table>
@@ -42,27 +42,26 @@ npm install ajacin-lit-weather-widget
 import 'ajacin-lit-weather-widget';
 ## Usage
 
-<script type="module">
-import './path-to/ajacin-lit-weather-widget/ajacin-lit-weather-widget.js';
-</script>
 
-<some-component></some-component>
+This widget componenent fetches real time weather infomration from openweathermap. The component takes ISO 3166 country code as a property and displays weather related data in a beautiful widget. This is a standard Lit Element component that can be used with JavaScript frameworks.
+```JavaScript
+<ajacin-lit-weather-widget city="Tokyo"></ajacin-lit-weather-widget>
 
 ## Contributing
 
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+1. Fork this repository.
+2. Create your feature branch: `git checkout -b my-new-feature`.
+3. Commit your changes: `git commit -am 'Add some feature'`.
+4. Push to the branch: `git push origin my-new-feature`.
+5. Submit a pull request.
 
 ## History
 
-TODO: Write history
+v 1.0 - Initial development
 
 ## Credits
 
-Arun Jacob
+<img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" width="20"/> https://www.linkedin.com/in/ajacin/
 
 ## License
 
