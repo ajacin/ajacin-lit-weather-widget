@@ -16,14 +16,37 @@ A widget to display weather information based on parameters.
   </tr>
 </table>
 
+Responsiveness samples
+<table>
+  <tr>
+    <th>Galaxy</th>
+    <th>iPad</th>
+    <th>iPhone</th>
+  </tr>
+  <tr>
+    <td>
+        <img src="https://github.com/ajacin/ajacin-lit-weather-widget/screenshots/galaxy.png" width="250"/>
+    </td>
+    <td>
+        <img src="https://github.com/ajacin/ajacin-lit-weather-widget/screenshots/iphone.png" width="600"/>
+    </td>
+    <td>
+        <img src="https://github.com/ajacin/ajacin-lit-weather-widget/screenshots/ipad.png" width="600"/>
+    </td>
+  </tr>
+</table>
+
 ## Installation
 
-npm install @webcomponents/webcomponentsjs
-npm install lit-element-bootstrap
-
+npm install ajacin-lit-weather-widget
+import 'ajacin-lit-weather-widget';
 ## Usage
 
-TODO: Write usage instructions
+<script type="module">
+import './path-to/ajacin-lit-weather-widget/ajacin-lit-weather-widget.js';
+</script>
+
+<some-component></some-component>
 
 ## Contributing
 
